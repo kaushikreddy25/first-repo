@@ -1,0 +1,4 @@
+This is the new file to copy old file into 
+Hello
+My name is Kaushik
+I am an Indian
