@@ -45,7 +45,7 @@ print(mo.group())
 
 print('---------------------------')
 
-#'+' is used to make a group optional. that particular group can occur 
+#'+' is used that particular group can occur 
 #one or more times. So here batman wont be recognized coz wo is zero times in batman.
 regEx4 = re.compile(r'bat(wo)+man')
 mo = regEx4.search('The adventures of batman')
@@ -62,10 +62,10 @@ print(mo.group())
 
 print('------------------------------')
 #check if a particular pattern appears a certain number of times within a range
-#here can be one time or upto three times
+#here, it can be one time or upto three times
 
 regEx6 = re.compile(r'((\d\d\d-)?\d\d\d\d\d\d\d\d\d\d(,)?){1,3}')
-mo = regEx6.search('My numbers are 091-8826654628,1234567890,0987667890 . Do call me')
+mo = regEx6.search('My numbers are 091-8826654628,1234567890,0987667890 . Do call me on any')
 print(mo.group())
 mo = regEx6.search('My number is 8829994646 . call me')
 print(mo.group())
