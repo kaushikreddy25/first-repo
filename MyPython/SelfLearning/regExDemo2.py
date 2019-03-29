@@ -60,7 +60,7 @@ print(vowelRegEx.findall(str1))
 print('Double vowel check-------')
 doublevowelRegEx = re.compile(r'[aeiouAEIOU]{2}') 
 print(doublevowelRegEx.findall(str1))
-print('Negative character class check-------') #finds everything other than whats in the character class
+print('Negative character class check-------') #finds everything other than what's in the character class
 consonantRegEx = re.compile(r'[^aeiouAEIOU]') 
 print(consonantRegEx.findall(str1))
 

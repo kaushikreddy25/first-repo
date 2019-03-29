@@ -22,6 +22,7 @@ else:
 print('-----------------------------')
 
 #Pipe character | is used to seperate different groups while searching for patterns.
+# use in a group
 regEx1 = re.compile(r'bat(man|mobile)')
 mo = regEx1.search('batman has a batmobile')
 print(mo.group())
@@ -55,14 +56,14 @@ mo = regEx4.search('The adventures of batwowoman')
 print(mo.group())
 
 print('---------------------------')
-
-regEx5 = re.compile(r'((\d\d\d-)?\d\d\d\d\d\d\d\d\d\d(,)?){3}')
-mo = regEx5.search('My numbers are 091-8826654628,1234567890,0987667890 . Do call me')
-print(mo.group())
+print('>>>')
+regEx5 = re.compile(r'((\d\d\d-)?\d\d\d\d\d\d\d\d\d\d)')
+print(regEx5.findall('My numbers are 091-8826654628,1234567890,0987667890 . Do call me'))
+#print(mo.group())
 
 print('------------------------------')
 #check if a particular pattern appears a certain number of times within a range
-#here, it can be one time or upto three times
+#here, it can be one time or max. three times
 
 regEx6 = re.compile(r'((\d\d\d-)?\d\d\d\d\d\d\d\d\d\d(,)?){1,3}')
 mo = regEx6.search('My numbers are 091-8826654628,1234567890,0987667890 . Do call me on any')
