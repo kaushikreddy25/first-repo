@@ -50,7 +50,7 @@ Boxprint("*", 1 ,1)
 
 print('----------------')
 
-gnagar = {'ns': 'green','ew':'red'}
+g_nagar = {'ns': 'green','ew':'red'}
 
 
 def switchLights(intersection):
@@ -66,7 +66,8 @@ def switchLights(intersection):
     
     print(intersection)
 
-switchLights(gnagar)  
+switchLights(g_nagar)  
+
 # after runnning this program we see traffic is running in both directions
 # as both lights are now switched to yellow and green. this shouldn't happen
 # one light should atleast be red. so we use assert statement.
@@ -74,4 +75,6 @@ switchLights(gnagar)
 # assert used for programming errors while try-except for user errors.
 
 
+
+#https://1drv.ms/u/s!Amv7MQc0JhpismCeasEbwgufoAOd
 
