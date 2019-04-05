@@ -10,10 +10,10 @@ import re, pyperclip
 
 phoNumRegEx = re.compile(r'''
 (
-((\d\d\d-)|            #country code in 091- format or city telephone code for landlines (OPTIONAL)
-(\+\d\d(\s)?))?            #country code in +91 format (OPTIONAL)
-\d\d\d\d\d                #first five digits
-\d\d\d(\d\d)?                #last three or five digits
+((\d\d\d-)|        #country code in 091- format or city telephone code for landlines(OPTIONAL)
+(\+\d\d(\s)?))?     #country code in +91 format (OPTIONAL)
+\d\d\d\d\d             #first five digits
+\d\d\d(\d\d)?            #last three or five digits
 )            
 ''',re.X)
 

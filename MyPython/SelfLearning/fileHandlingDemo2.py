@@ -5,10 +5,15 @@ Created on 29-Mar-2019
 '''
 import os
 
+filen = 'mydata.txt'
+print('Join path >>>')
 print(os.path.join('folder1','folder2 in folder1','folder3 in folder2','samsung.jpeg -in folder3-'))
-
+print(os.path.join('W:\\Python\\Programs',filen))
+print()
+print('Current working directory >>>')
 print(os.getcwd())
-
+print()
+print('Change Directory>>> ')
 os.chdir('W:\\Python\\Automate the Boring Stuff with Python Programming - Udemy')
 
 print(os.getcwd())
@@ -37,6 +42,7 @@ print('--------------------------')
 totalsize = 0
 
 for file in os.listdir('W:\\Jobs'):
+    print('Printing name of file >>> ',file)
     if os.path.isfile(os.path.join('W:\\Jobs',file)):
         totalsize = totalsize + os.path.getsize(os.path.join('W:\\Jobs',file))
     else:
