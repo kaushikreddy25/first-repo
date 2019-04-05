@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 16, in Boxprint
+    raise Exception('Symbol should be 1 character long.')
+Exception: Symbol should be 1 character long.
+Traceback (most recent call last):
+  File "C:\Users\guruk\git\first-repo\first-repo\MyPython\SelfLearning\debuggingDemo2.py", line 25, in Boxprint
+    raise Exception('Height and width should be greater than 2')
+Exception: Height and width should be greater than 2

@@ -66,6 +66,8 @@ def AbyB(x,y):
     else: 
         print (g) 
         print('In else block')
+        
+
 # Driver program to test above function 
 AbyB(2.0, 3.0)
 print('Second example-> ') 
