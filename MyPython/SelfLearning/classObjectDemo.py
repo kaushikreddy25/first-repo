@@ -6,6 +6,8 @@ Created on 12-Mar-2019
 
 class football:
     
+    player =11
+    
     def __init__(self, name, country):
         self.name= name
         self.country = country
@@ -19,7 +21,11 @@ barcelona = football("Barcelona", 'Spain')
 arsenal = football("Arsenal", 'England')
 
 arsenal.club('Monreal')
+print(barcelona.player)
 
+arsenal.player =10
+
+print(arsenal.player)
 
 print('------------------------')
 

@@ -48,10 +48,7 @@ def update4():
 ''' 
     x = globals()['d']
     print(id(x))
-'''   
-    
-    
-          
+'''         
 update4()
 print('Outside function ', d)
 
